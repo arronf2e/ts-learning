@@ -1,0 +1,26 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "ts-learning notes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/demo1.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arronf2e/ts-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arronf2e/ts-learning/issues"
+  },
+  "homepage": "https://github.com/arronf2e/ts-learning#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}
