@@ -25,3 +25,62 @@ let ud: undefined = undefined
 let ud1: void = undefined
 let ud2: void = null
 
+// let number: any = 'six'
+// number = 6
+
+// let number = 7
+// number = 'seven'
+
+enum Days {
+    Mon = 1,
+    Tue,
+    Wed,
+    Thu,
+    Fri,
+    Sat,
+    Sun = 10
+}
+
+console.log(Days.Mon);
+console.log(Days[10]);
+
+enum Colors {
+    red = 'red',
+    green = 'green',
+    blue = 'blue'
+}
+console.log(Colors.blue)
+
+declare enum Colorss {
+    red = 'red',
+    green = 'green',
+    blue = 'blue'
+}
+
+// var be = Colorss.blue
+// console.log(be)
+
+enum Gender {
+    Female = 'female',
+    Male = 0,
+    others
+}
+console.log(Gender.others);
+
+
+enum Gender2 {
+    others,
+    Female = 'female',
+    Male = 1
+}
+console.log(Gender2.others);  // 0
+
+
+const enum Fruits {
+    banana,
+    apple
+}
+console.log(Fruits.apple);
+
+
+
