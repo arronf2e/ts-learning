@@ -20,3 +20,8 @@ let helloMyName: string = `${helloWorld}:${myName}`
 function sayHello(): void {
     console.log('hello world')
 }
+
+let ud: undefined = undefined
+let ud1: void = undefined
+let ud2: void = null
+
