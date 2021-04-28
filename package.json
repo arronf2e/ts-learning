@@ -4,7 +4,7 @@
   "description": "ts-learning notes",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/demo2.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/demo3.ts"
   },
   "repository": {
     "type": "git",
