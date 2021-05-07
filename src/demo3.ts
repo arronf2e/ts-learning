@@ -1,4 +1,8 @@
-// x,y都为number
+/**
+ * get two number sum
+ * @param {number} x - The title of the book.
+ * @param {number} x - The author of the book.
+ */
 function sum(x: number, y: number): number {
     return x + y
 }
@@ -28,6 +32,7 @@ function testRest(a: number, ...rest: number[]): void {
 testRest(0,1,23,5)
 
 // 可选参数
+
 function getName(firstName: string, lastName?:string) {
     console.log(firstName + lastName)
 }
